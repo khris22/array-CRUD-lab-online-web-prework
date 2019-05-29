@@ -8,7 +8,7 @@ end
 
 def add_element_to_end_of_array(array, element)
   array = ["#{array}"]
-  array << "#{element}"
+  puts array.push("#{element}")
   puts array.inspect
 end
 
